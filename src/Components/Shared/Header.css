@@ -1,0 +1,47 @@
+.header {
+  height: 80px;
+  background-color: #1C2B35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 36px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 36px;
+}
+
+.link:hover {
+  color: rgb(0, 255, 255);
+}
+
+.header a:hover {
+  color: rgb(0, 255, 255);
+}
